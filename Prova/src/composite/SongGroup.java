@@ -40,7 +40,7 @@ public class SongGroup extends SongComponent {
 		System.out.println(getName() +  " "
 				+ getDescription() + "\n");
 		
-		Iterator songIterator = songComponents.iterator();
+		Iterator<SongComponent> songIterator = songComponents.iterator();
 		
 		while(songIterator.hasNext()) {
 			SongComponent songInfo = (SongComponent) songIterator.next();
